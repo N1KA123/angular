@@ -11,4 +11,9 @@ import { CounterComponent } from './counter/counter.component';
 })
 export class AppComponent {
   title = 'my_app';
+  initialValue: number = 0;
+ 
+  onValueChange(event: number) {
+    console.log('New value:', event);
+  }
 }
