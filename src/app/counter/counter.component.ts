@@ -1,9 +1,10 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output, } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-counter',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './counter.component.html',
   styleUrl: './counter.component.scss'
 })
